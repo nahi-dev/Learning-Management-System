@@ -1,7 +1,7 @@
 import React from "react";
-
-const CourseDetail = () => {
-  return <div>CourseDetail</div>;
+import CourseDetail from "@/app/components/student/CourseDetail";
+const CourseDetailPage = () => {
+  return <CourseDetail />;
 };
 
-export default CourseDetail;
+export default CourseDetailPage;
