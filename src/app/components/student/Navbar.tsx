@@ -69,7 +69,7 @@ const Navbar = () => {
           {user && (
             <>
               <Link
-                href="/student/my-enrollment"
+                href="/my-enrollment"
                 className={`transition-colors duration-200 hover:text-blue-600 ${
                   pathname === "/student/my-enrollment"
                     ? "text-blue-500 font-semibold"
